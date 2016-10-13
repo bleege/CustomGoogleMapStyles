@@ -7,6 +7,7 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MapStyleOptions;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapsActivity extends AppCompatActivity implements OnMapReadyCallback {
@@ -108,6 +109,8 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
+
+        mMap.setMapStyle(MapStyleOptions.loadRawResourceStyle(this, R.raw.style_silver_no_labels_json));
 
         // Add a marker in Zurich and move the camera
         LatLng zurich = new LatLng(47.37510, 8.53226);

@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">CustomGoogleMapStyles</string>
-    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps">Custom Google Map Style</string>
 </resources>
