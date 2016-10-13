@@ -6,4 +6,4 @@ Experimenting with the recently released support for designing and displaying Cu
 * https://mapstyle.withgoogle.com/
 
 
-<img src="https://raw.githubusercontent.com/bleege/CustomGoogleMapStyles/master/android-custom-google-map-style.png" width="280" height="720"/>
+<img src="https://raw.githubusercontent.com/bleege/CustomGoogleMapStyles/master/android-custom-google-map-style.png" width="720" height="1280"/>
